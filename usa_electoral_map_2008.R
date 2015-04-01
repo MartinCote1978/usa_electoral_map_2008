@@ -60,7 +60,8 @@ names(county)[names(county) %in% c("region", "subregion")] <- c("state", "county
 # untar(file, compressed = 'gzip', exdir = temp.dir )
 # list.files(temp.dir)
 
-temp.dir <- "C:\\Users\\David\\Documents\\GitHub\\usa_electoral_map_2008"
+temp.dir <- "C:\\Users\\martin.cote\\Documents\\github-repo\\usa_electoral_map_2008"
+#temp.dir <- "C:\\Users\\David\\Documents\\GitHub\\usa_electoral_map_2008"
 
 # data frame
 library(foreign)
